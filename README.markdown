@@ -46,20 +46,6 @@ The model uses **Token Merging (ToMe)** to reduce computational complexity while
 - PyTorch with CUDA support (optional, for GPU acceleration)
 - Git
 
-### Steps
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/DualWaveNet.git
-   cd DualWaveNet
-   ```
-
-2. Install dependencies:
-   ```bash
-   pip install timm
-   pip install -U git+https://github.com/facebookresearch/tome.git
-   pip install torch torchvision torchaudio
-   pip install scikit-learn seaborn matplotlib
-   ```
 
 ## Model Architecture
 
@@ -93,10 +79,3 @@ The model uses **Token Merging (ToMe)** to reduce computational complexity while
 - Incorporate **transcript-based NLP features** for tri-modal classification.
 - Experiment with **transformer-based fusion layers** instead of simple concatenation.
 
-## Contact
-
-For questions or contributions, please open an issue or contact [your.email@example.com](mailto:your.email@example.com).
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
