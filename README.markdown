@@ -54,24 +54,6 @@ The model uses **Token Merging (ToMe)** to reduce computational complexity while
 - **Branch 2**: Vision Transformer (ViT) with ToMe for tempograms.
 - **Fusion**: Concatenates embeddings from both branches, followed by a linear classifier and softmax for binary classification.
 
-## Usage
-
-1. **Prepare the Dataset**:
-   - Download or preprocess the **EATD-Corpus** to generate spectrograms and tempograms.
-   - Ensure data is formatted as described in the dataset section.
-
-2. **Train the Model**:
-   ```bash
-   python train.py --data_path /path/to/eatd_corpus --output_dir /path/to/save
-   ```
-
-3. **Evaluate the Model**:
-   ```bash
-   python evaluate.py --model_path /path/to/trained_model --data_path /path/to/eatd_corpus
-   ```
-
-4. **Visualize Results**:
-   - Confusion matrices and performance plots are generated automatically during evaluation.
 
 ## Future Work
 
